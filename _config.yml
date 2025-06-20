@@ -1,3 +1,29 @@
 remote_theme: just-the-docs/just-the-docs
 title: TmC0sm Blog 
 description: Technical notes on cyber investigations, research and discoveries
+
+
+
+
+# Navigation order in sidebar
+nav_order:
+  - index.md
+  - topics/hunting/
+  - topics/experiments/
+  - topics/studies/
+
+# Sidebar navigation titles for folders
+nav:
+  hunting:
+    title: Hunting
+  experiments:
+    title: Experiments
+  studies:
+    title: Studies
+
+# Sort navigation case-insensitive
+nav_sort: case_insensitive
+
+# Theme options
+theme:
+  search_enabled: true
