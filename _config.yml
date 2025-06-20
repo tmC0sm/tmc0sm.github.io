@@ -10,16 +10,14 @@ nav_order:
   - index.md
   - topics/hunting/
   - topics/experiments/
-  - topics/studies/
 
 # Sidebar navigation titles for folders
 nav:
-  hunting:
+  topics/hunting:
     title: Hunting
-  experiments:
+  topics/experiments:
     title: Experiments
-  studies:
-    title: Studies
+ 
 
 # Sort navigation case-insensitive
 nav_sort: case_insensitive
